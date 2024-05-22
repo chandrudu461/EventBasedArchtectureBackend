@@ -13,11 +13,11 @@ const port = 3000
 let clients = [];
 let queries = [];
 
-const connection = mysql.createConnection({
-    host: 'staging-prod-db.crhg7zleeuhf.ap-south-1.rds.amazonaws.com',
-    user: 'hakate',
-    password: '}*w;caq[&Na75HtbamFKbc+[zU&ns8H-'
-});
+// const connection = mysql.createConnection({
+//     host: 'staging-prod-db.crhg7zleeuhf.ap-south-1.rds.amazonaws.com',
+//     user: 'hakate',
+//     password: '}*w;caq[&Na75HtbamFKbc+[zU&ns8H-'
+// });
 
 const zongji = new ZongJi({
     host: 'staging-prod-db.crhg7zleeuhf.ap-south-1.rds.amazonaws.com',
